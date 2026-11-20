@@ -2,8 +2,6 @@ import streamlit as st
 import os
 from langchain_huggingface import HuggingFaceEndpoint
 
-# Token-a code la ezhudha koodadhu.
-# .env file la podu illa Streamlit Secrets la podu
 API_TOKEN = os.getenv("HUGGINGFACEHUB_API_TOKEN")
 
 st.set_page_config(
